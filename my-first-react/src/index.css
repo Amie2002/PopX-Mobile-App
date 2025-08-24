@@ -1,0 +1,85 @@
+/* index.css */
+
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* Background setup */
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main app container */
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile frame container */
+.app-container {
+  width: 375px;            /* Match mobile size */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Headings */
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}
+
+/* Paragraph */
+p {
+  font-size: 14px;
+  color: #6b7280; /* gray-500 */
+  line-height: 1.5;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7c3aed; /* purple-600 */
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Landing page */
+.landing-page {
+  width: 375px;
+  height: 812px;
+  background: #F7F8F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
