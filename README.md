@@ -4,111 +4,93 @@ PopX is a mobile-style React web application demonstrating user onboarding and p
 
 This is a demo version showcasing:
 
-Landing Page
+- Landing Page
 
-Signup Page
+- Signup Page
 
-Login Page
+- Login Page
 
-Profile Page
+- Profile Page
 
-🖥️ Features
+## Features
 
-Landing Page: Introduction to PopX with navigation to signup/login.
+- **Landing Page:** Introduction to PopX with navigation to signup/login.
+- **Signup Page:** Users can create an account with:
 
-Signup Page: Users can create an account with:
+    - Full Name
 
-Full Name
+    - Phone Number
 
-Phone Number
+    - Password
 
-Password
+    - Company Name
 
-Company Name
+    - Agency Selection (Yes/No)
 
-Agency Selection (Yes/No)
+- **Login Page:** Users can login using email and password.
 
-Login Page: Users can login using email and password.
+- **Profile Page:**
 
-Profile Page:
+    - Display user info: name, email, phone, company, agency status
 
-Display user info: name, email, phone, company, agency status
+    - Profile picture with option to change
 
-Profile picture with option to change
+    - Logout button
+## Technologies Used
 
-Logout button
+- React (Vite)
 
-📁 Project Structure
-my-first-react/
-├── public/                # Static files (images, icons, index.html)
-├── src/
-│   ├── assets/            # App images (profile pics, icons)
-│   ├── screens/
-│   │   ├── LandingPage.jsx
-│   │   ├── SignupPage.jsx
-│   │   ├── LoginPage.jsx
-│   │   └── ProfilePage.jsx
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-└── README.md
+- React Router DOM
 
-⚛️ Technologies Used
+- HTML, CSS (inline styling)
 
-React (Vite)
+- JavaScript (ES6+)
+## Running the Project Locally
 
-React Router DOM
-
-HTML, CSS (inline styling)
-
-JavaScript (ES6+)
-
-🚀 Running the Project Locally
-
-Clone the repository:
-
-git clone https://github.com/YOUR_USERNAME/my-first-react.git
-
-
-Install dependencies:
-
+- **Clone the repository:** 
+```
+git clone git clone https://github.com/Amie2002/PopX-Mobile-App.git
+```
+- **Install dependencies:**
+```
+cd PopX-Mobile-App
 cd my-first-react
 npm install
-
-
-Start the development server:
-
+```
+- **Start the development server:** 
+```
 npm run dev
-
-
-Open your browser at http://localhost:5173 (Vite default port).
-
-📦 Build for Production
+```
+- Open your browser at http://localhost:5173 (Vite default port).
+## Build for Production
+```
 npm run build
+```
+- Production-ready files will be in the dist/ folder.
 
+- Can be deployed to Netlify, Vercel, GitHub Pages, etc.
+## Live Demo
 
-Production-ready files will be in the dist/ folder.
+- [Netlify Link](https://68ab448be9665c01722ffab1--popx-mobileapp.netlify.app)
+## Screenshots
 
-Can be deployed to Netlify, Vercel, GitHub Pages, etc.
+- **Landing Page**
 
-🌐 Live Demo
+![Landing Page](img/img1.png)
 
-Netlify Link
+- **Signup Page**
 
-📷 Screenshots
+![Signup Page](img/img2.png)
 
-Landing Page
+- **Login Page**
 
+![Login Page](img/img3.png)
 
-Signup Page
+- **Profile Page**
 
+![Profile Page](img/img4.png)
 
-Login Page
-
-
-Profile Page
-
-
-📄 License
+## License
 
 This project is for demo purposes only.
+
